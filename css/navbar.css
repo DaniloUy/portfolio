@@ -1,0 +1,28 @@
+
+.nav {
+    background-color: lightblue;
+
+    } 
+  
+.nav ul li{
+    float: right; 
+    margin-right: 52px;
+    list-style-type: none; 
+  }
+   
+  #open {
+    border: 5px solid black;
+    background-color: red;
+    z-index: 1;
+  }
+  
+  .nav-link {
+    color: darkgrey;
+    text-decoration: none;
+    font-family: 'Acme';     sans-serif:
+  }  
+   
+  .nav-link:hover {
+    color: green;
+    font-weight: 900;
+    }

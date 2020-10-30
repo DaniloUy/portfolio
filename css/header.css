@@ -1,0 +1,6 @@
+.jumbotron {
+    background: url('../assets/mountain.jpg') center bottom;
+    background-size: cover;
+    height: 39vh;
+    color: white;
+}

@@ -1,0 +1,9 @@
+.col-sm-10 {
+    text-align: left;
+    }
+
+.col-sm-2 img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}

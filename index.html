@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+   <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a> 
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- HEADER -->
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">Danilo Uy</h1>
+      <p class="lead">Web Developer</p>
+    </div>
+  </div>
+  <!-- ABOUT -->
+  <div id="about">
+    <div class="container">
+      <h1>About Me</h1>
+      <br>
+      <div class="row">
+        <div class="col-sm-10">
+          <p>Hello, my name is Danilo Uy. Currently, I am a student in Eleven Fifty Academy taking Web Development bootcamp course, learning HTML, CSS, and Javascript 
+            to create and deploy web pages and web applications.  Prior to this, I was an IBM mainframe programmer/analyst with over 15 years experience.                
+            I worked at Fortune 100 companies like US Trust (now part of Bank of America), UPS, and Fiserv.
+          </p>
+        </div>
+        <div class="col-sm-2">
+         <img src="assets/id_photo.jpg">  
+        </div>
+        <div style="margin-left: 30px;">
+        <a href="https://docs.google.com/document/d/1utqhgD1lONzkVC5NtCxwHYoqP8UHIGHR0WhqDqu_YBY/edit" class="btn btn-info" role="button">Download Resume</a>
+        </div> 
+      </div>
+    </div>
+  </div>
+  <br>
+  <br> 
+  
+  <div id="portfolio" style="height: max-content;">
+     
+    <div class="container">
+     <h1>My Portfolio</h1>
+     <br>     
+     <div class="row"> 
+       <div class="project-1">         
+        <div class="hover-box"><img src="../Portfolio/assets/CSS Creature.jpg" class="image" style="border: solid black; width:70%; margin-left: 65px";>
+         <div class="middle">
+          <div class="text">Used HTML and CSS multiple shapes and colors to create a cartoon </div>
+         </div> 
+        </div>
+       </div>
+       <div class="project-2"> 
+        <div class="hover-box"><img src="../Portfolio/assets/staticLayout.jpg" class="image" style="width:70%; border: solid black">
+         <div class="middle">
+          <div class="text">Wrote HTML and CSS code to re-create a professional static web page</div>
+         </div> 
+        </div>  
+       </div>
+       <div class="project-3"> 
+        <div class="hover-box"><img src="../Portfolio/assets/apiChallenge.jpg" class="image" style="width:70%; margin-left:100px; border:solid black">
+         <div class="middle">
+          <div class="text">Wrote Javascript code to fetch data in JSON format from an API</div>
+         </div>
+        </div>
+       </div>  
+     </div>
+    </div>  
+    
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>   
+   <br>
+   <br>
+   <br>
+   <br>
+          
+    <div class="container">
+       
+     <div class="row">
+      <div class="project-1">
+        <div class="hover-box"><img src="../Portfolio/assets/road.jpg" style="width: 70%; border:solid black"> 
+          <div class="middle">
+            <div class="text">Future Blue Badge Project</div>
+          </div>
+        </div> 
+      </div>      
+     </div> 
+      
+    </div>
+  
+  </div>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br> 
+  <br>
+  <br>
+  <br>   
+  
+  <!-- CONTACT -->
+  <div id="contact" style="background-color: lightgray;">
+    <div class="container">
+       <h1 text-align:center>Contact Me</h1>     
+      <br>   
+      
+      <form
+    
+       action="https://formspree.io/f/mknprgob"
+       method="POST"> 
+    
+       <div class="row">
+          
+        <label style="margin-left: 15px;"> 
+    
+        Your email:  
+        <br>   
+        <input size="155" type="text" name="_replyto">
+    
+        </label>   
+
+       </div>
+  
+       <div class="row">
+    
+        <label style="margin-left: 15px;">
+         Your message:
+         <br>
+         <textarea rows="5" style="width:1125px;" name="message"></textarea>
+        </label>
+
+       </div>
+
+       <br>
+  
+       <div class="row" style="margin-left: 500px;"> 
+       <!-- your other form fields go here -->
+  
+        <button type="submit">Send Message</button>
+       </div>
+
+      </form>
+
+    </div>
+  </div>
+   
+
+  <footer style="background-color: white; height:50px">
+     
+    <p> 
+      <div style="margin-left: 550px">
+       <a href="https://github.com/DaniloUy?tab=repositories" class="btn btn-info" role="button" style="background-color: blue;
+        color:white; border:lightgray ">GitHub</a> 
+              
+       <a href="https://www.linkedin.com/in/danilo-uy-8097aa1b9/" class="btn btn-info" role="button" style="background-color:blue;
+       color: white; border: lightgray; ">LinkedIn</a> 
+      </div>         
+    </p>    
+
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+
+  
+</body>
+</html>
+
+
+
+
