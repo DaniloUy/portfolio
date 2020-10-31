@@ -1,5 +1,5 @@
-
-     .hover-box {
+     
+     .hover-area {
        position: relative;
        width: 50%;
      }
@@ -24,11 +24,11 @@
        text-align: center;
      }
      
-     .hover-box:hover .image {
+     .hover-area:hover .image {
        opacity: 0.3;
      }
      
-     .hover-box:hover .middle {
+     .hover-area:hover .middle {
        opacity: 1;
      }
      
@@ -39,27 +39,26 @@
        padding: 16px 32px;
      }
 
-  .project-1 {
-      position: absolute;
-      width: 70%; 
+     .project-1 {
+         position: absolute;
+         width: 70%; 
             
-  }
- 
-  .project-2 {
-      position: absolute;
-      left: 495px; 
-      width: 70%;
-      height: 100%;
+     }
+     
+     .project-2 {
+         position: absolute;
+         left: 495px; 
+         width: 70%;
+         height: 100%;
        
-  }
+     }
   
-  .project-3 {
-      position: absolute;
-      left: 760px; 
-      width: 70%;
+     .project-3 {
+         position: absolute;
+         left: 760px; 
+         width: 70%;
         
-  }
-
+     }
   
 
 
