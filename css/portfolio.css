@@ -1,9 +1,4 @@
      
-     .hover-area {
-       position: relative;
-       width: 50%;
-     }
-     
      .image {
        opacity: 1;
        display: block;
@@ -13,55 +8,7 @@
        backface-visibility: hidden;
      }
      
-     .middle-1 {
-       transition: .5s ease;
-       opacity: 0;
-       position: absolute;
-       top: 50%;
-       left: 50%;
-       transform: translate(-50%, -50%);
-       -ms-transform: translate(-50%, -50%);
-       text-align: center;
-     }
-    
-     .middle-2 {
-      transition: .5s ease;
-      opacity: 0;
-      position: absolute;
-      top: 50%;
-      left: 35%;
-      transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-      text-align: center;
-    }
-    
-    .middle-3 {
-      transition: .5s ease;
-      opacity: 0;
-      position: absolute;
-      top: 50%;
-      left: 57%;
-      transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-      text-align: center;
-    }
      
-     .hover-area:hover .image {
-       opacity: 0.3;
-     }
-    
-     .hover-area:hover .middle-1 {
-      opacity: 1;
-    }
-     
-     .hover-area:hover .middle-2 {
-      opacity: 1;
-    }
-    
-    .hover-area:hover .middle-3 {
-      opacity: 1;
-    } 
-
      .text {
        /* background-color: lightblue;  */
        color: black;
@@ -70,25 +17,23 @@
      }
 
      .project-1 {
-         position: absolute;
-         width: 70%; 
-            
+         position: relative;
+         width: 30%; 
+         margin-right: 5px;
+                              
      }
      
      .project-2 {
-         position: absolute;
-         left: 495px; 
-         width: 70%;
-         height: 100%;
-       
+         position: relative;
+         /* left: 495px;  */
+         width: 30%;
+                
      }
   
-     .project-3 {
-         position: absolute;
-         left: 760px; 
-         width: 70%;
-        
+     .row-1 {
+         position: relative;
+         display: flex;
+         flex-flow: wrap;
+         justify-content: space-evenly;
      }
-  
-
 
